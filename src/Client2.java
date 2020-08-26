@@ -6,16 +6,16 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class Client {
+public class Client2 {
     DataOutputStream dataOutputStream;
     ObjectInputStream objectInputStream;
     Socket socket;
     Scanner scanner;
     public static void main(String[] args) {
-        new Client();
+        new Client2();
     }
 
-    public Client() {
+    public Client2() {
         scanner = new Scanner(System.in);
         try {
             socket = new Socket("localhost", 10000);
